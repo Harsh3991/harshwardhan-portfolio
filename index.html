@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harshwardhan Dhoble - Full Stack Developer Portfolio">
+    <title>Harshwardhan Dhoble | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">HD</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting fade-in">Hi, my name is</p>
+                <h1 class="hero-name fade-in-up">Harshwardhan Dhoble</h1>
+                <h2 class="hero-title fade-in-up">I build things for the web.</h2>
+                <p class="hero-description fade-in-up">
+                    I'm a passionate <span class="highlight">Full Stack Developer</span> specializing in building 
+                    exceptional digital experiences. Currently focused on creating responsive, 
+                    user-friendly applications using modern technologies.
+                </p>
+                <div class="hero-cta fade-in-up">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social fade-in">
+                    <a href="https://github.com/Harsh3991" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harshwardhan-dhoble-608a50244/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Harsh3991/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="mailto:dhobleharshwardhan@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right">
+                <div class="image-frame">
+                    <div class="frame-border"></div>
+                    <div class="profile-placeholder">
+                        <img src="./assets/profile-image.jpeg" alt="Professional Profile" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-xl);">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span> About Me
+                <span class="title-line"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Hello! I'm Harshwardhan, a dedicated software developer with a passion for creating 
+                        innovative web applications. My journey in web development started with a curiosity 
+                        about how websites work, and it has evolved into a career focused on building 
+                        accessible, inclusive products.
+                    </p>
+                    <p class="about-paragraph">
+                        I enjoy the challenge of turning complex problems into simple, beautiful, and 
+                        intuitive solutions. When I'm not coding, you'll find me exploring new technologies, 
+                        contributing to open-source projects, or solving problems on LeetCode.
+                    </p>
+                    <p class="about-paragraph">
+                        Currently, I'm focusing on expanding my skills in AI/ML integration, cloud services, 
+                        and building scalable applications. I'm actively seeking opportunities to contribute 
+                        to meaningful projects and grow as a developer.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=500&fit=crop" alt="Coding workspace" class="about-img">
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span> Skills & Technologies
+                <span class="title-line"></span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Tailwind CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React Native</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flutter</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Learning & Interests</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">AI/ML Fundamentals</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud Services</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Data Structures</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Problem Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span> Featured Projects
+                <span class="title-line"></span>
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1: BookBee -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/bookbee-img.png" alt="BookBee Project - Story Sharing Platform">
+                        <div class="project-overlay">
+                            <a href="https://bookbee-lovat.vercel.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Harsh3991/bookbee" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">BookBee - Story Sharing Platform</h3>
+                        <div class="project-description">
+                            <p>
+                                An online story sharing and storytelling platform similar to Wattpad. Users can write, 
+                                publish, and discover original stories. Features include user authentication, 
+                                story creation with rich text editor, reading lists, and responsive design for seamless reading experience.
+                            </p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2: Chat App -->
+                <article class="project-card project-card-reverse">
+                    <div class="project-image">
+                        <img src="./assets/chatty-img.png" alt="Real-time Chat Application">
+                        <div class="project-overlay">
+                            <a href="https://chat-app-z637.onrender.com/login" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Harsh3991/CHAT-APP.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <div class="project-description">
+                            <p>
+                                A feature-rich real-time chat application with Socket.io integration. 
+                                Supports multiple chat rooms, direct messaging, typing indicators, and 
+                                online status tracking. Built with modern web technologies for optimal performance.
+                            </p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>React</li>
+                            <li>Socket.io</li>
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                            <li>JWT Auth</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3: Recipe Search App -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=400&fit=crop" alt="Recipe Search Application">
+                        <div class="project-overlay">
+                            <a href="https://drive.google.com/file/d/1WdiUeiWYxgvteuvosKVURnGkTqyQfs3M/view" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/Harsh3991/recipe_search_app.git" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">Recipe Search Application</h3>
+                        <div class="project-description">
+                            <p>
+                                An intuitive recipe search platform powered by external APIs. Users can 
+                                discover recipes, filter by ingredients, view nutritional information, 
+                                and save their favorites. Clean UI with smooth animations.
+                            </p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>React</li>
+                            <li>API Integration</li>
+                            <li>CSS3</li>
+                            <li>LocalStorage</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="more-projects">
+                <h3 class="more-projects-title">Other Noteworthy Projects</h3>
+                <div class="small-projects-grid">
+                    <div class="small-project-card">
+                        <div class="small-project-header">
+                            <i class="fas fa-folder"></i>
+                            <div class="small-project-links">
+                                <a href="https://github.com/Harsh3991" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">Portfolio Website</h4>
+                        <p class="small-project-desc">
+                            Personal portfolio showcasing projects and skills with modern design and animations.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="small-project-card">
+                        <div class="small-project-header">
+                            <i class="fas fa-folder"></i>
+                            <div class="small-project-links">
+                                <a href="https://github.com/Harsh3991" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">Weather Dashboard</h4>
+                        <p class="small-project-desc">
+                            Real-time weather application with location-based forecasts and interactive UI.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>React</li>
+                            <li>Weather API</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+                    <div class="small-project-card">
+                        <div class="small-project-header">
+                            <i class="fas fa-folder"></i>
+                            <div class="small-project-links">
+                                <a href="https://github.com/Harsh3991" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">Task Manager</h4>
+                        <p class="small-project-desc">
+                            Full-stack task management app with CRUD operations and user authentication.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>MERN</li>
+                            <li>JWT</li>
+                            <li>REST API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span> Certifications
+                <span class="title-line"></span>
+            </h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="cert-title">Introduction to Artificial Intelligence (AI)</h3>
+                    <p class="cert-issuer">IBM</p>
+                    <p class="cert-date">Issued Jan 2026</p>
+                    <div class="cert-skills">
+                        <span>AI Fundamentals</span>
+                        <span>Machine Learning</span>
+                        <span>Neural Networks</span>
+                    </div>
+                    <a href="https://coursera.org/share/83ddaf3ecebb8469ef14ba2b0e72af6e" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3 class="cert-title">Google AI Essentials Specialization</h3>
+                    <p class="cert-issuer">Google</p>
+                    <p class="cert-date">Issued Sep 2025</p>
+                    <div class="cert-skills">
+                        <span>AI Tools</span>
+                        <span>Prompt Engineering</span>
+                        <span>GenAI</span>
+                    </div>
+                    <a href="https://coursera.org/share/11fcc26ee68e5c12527cdf745749f538" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="cert-title">Software Engineering Essentials</h3>
+                    <p class="cert-issuer">Coursera</p>
+                    <p class="cert-date">Issued Oct 2025</p>
+                    <div class="cert-skills">
+                        <span>SDLC</span>
+                        <span>Best Practices</span>
+                        <span>Version Control</span>
+                    </div>
+                    <a href="https://www.credly.com/badges/7c9b3f2d-1134-4558-9358-8df83db381d4/linked_in_profile" target="_blank" class="cert-btn">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05.</span> Get In Touch
+                <span class="title-line"></span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Let's Build Something Together</h3>
+                    <p>
+                        I'm currently looking for new opportunities and my inbox is always open. 
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:dhobleharshwardhan@gmail.com">dhobleharshwardhan@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Maharashtra, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/Harsh3991" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/harshwardhan-dhoble-608a50244/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/Harsh3991/" target="_blank" class="social-icon">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harshwardhan Dhoble. Built with passion and code.</p>
+            <p class="footer-subtitle">Designed & Developed with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
